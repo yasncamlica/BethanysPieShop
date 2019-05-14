@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-collapse collapse">
+                <ul class="navbar navbar-nav">
+                    <li>
+                        <a asp-controller="Home" asp-action="Index" class="navbar-brand">
+                            Bethany's Pie Shop
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-controller="Feedback" asp-action="Index" class="navbar-brand">
+                            Feedback
+                        </a>
+                    </li>
+                    <partial name="_LoginPartial" />
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        <div class="row mb-2">
+            @RenderBody()
+        </div>
+    </div>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
