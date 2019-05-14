@@ -13,18 +13,18 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-#line 1 "/Users/OnurYilmaz/Desktop/LastProject/BethanysPieShop/Views/_ViewImports.cshtml"
+#line 3 "/Users/OnurYilmaz/Desktop/LastProject/BethanysPieShop/Views/_ViewImports.cshtml"
 using BethanysPieShop.Models;
 
 #line default
 #line hidden
-#line 2 "/Users/OnurYilmaz/Desktop/LastProject/BethanysPieShop/Views/_ViewImports.cshtml"
+#line 4 "/Users/OnurYilmaz/Desktop/LastProject/BethanysPieShop/Views/_ViewImports.cshtml"
 using BethanysPieShop.ViewModels;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d9aec5c271629a29489866c3370714c5ccc1beba", @"/Views/Feedback/FeedbackComplete.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7d173f5473ddacce746ad31da38858cca40e8a58", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0d6a5e40f8d42e3436f4224ae98c2f6e0827f7cb", @"/Views/_ViewImports.cshtml")]
     public class Views_Feedback_FeedbackComplete : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

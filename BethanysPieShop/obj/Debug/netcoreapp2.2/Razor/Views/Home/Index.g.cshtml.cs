@@ -13,18 +13,18 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-#line 1 "/Users/OnurYilmaz/Desktop/LastProject/BethanysPieShop/Views/_ViewImports.cshtml"
+#line 3 "/Users/OnurYilmaz/Desktop/LastProject/BethanysPieShop/Views/_ViewImports.cshtml"
 using BethanysPieShop.Models;
 
 #line default
 #line hidden
-#line 2 "/Users/OnurYilmaz/Desktop/LastProject/BethanysPieShop/Views/_ViewImports.cshtml"
+#line 4 "/Users/OnurYilmaz/Desktop/LastProject/BethanysPieShop/Views/_ViewImports.cshtml"
 using BethanysPieShop.ViewModels;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d14074f2e27ca10310042ab9136b5eb08ded2d71", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7d173f5473ddacce746ad31da38858cca40e8a58", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0d6a5e40f8d42e3436f4224ae98c2f6e0827f7cb", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<HomeViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

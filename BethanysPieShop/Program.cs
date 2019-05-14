@@ -32,7 +32,7 @@ namespace BethanysPieShop
                 }
             }
 
-            host.Run();
+            CreateWebHostBuilder(args).Build().Run();
 
         }
 
